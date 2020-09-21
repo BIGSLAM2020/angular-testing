@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./counter.component.css']
 })
 export class CounterComponent implements OnInit {
+    [x: string]: any;
 
 
   counter: number;
   constructor() {
-    this.counter = 1;
+    this.counter = 2;
    }
 
    increment() {
